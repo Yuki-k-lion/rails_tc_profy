@@ -51,3 +51,18 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# add in calc
+gem 'pry-rails'
+# デバッグ用のgemです。Railsアプリケーション開発には必須のツールといえます。
+gem 'devise'
+gem 'kaminari'
+gem 'therubyracer'
+# 	RubyからJavaScriptを使えるようにするためのgemです。
+gem 'twitter-bootstrap-rails'
+# CSSのフレームワークであるBootsatrapを使うためのgemです。
+gem 'bootstrap-material-design', '0.1.4'
+gem 'jquery-rails'
+	# Rails5では元々jQueryが入っていないため、使う場合は追加が必要です。
+gem "font-awesome-rails"
+# 	絵文字フォントを使うためのgemです。
